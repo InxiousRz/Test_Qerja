@@ -50,7 +50,7 @@ note : to change port, go to run_dev.js and change the port
 2. **GET** `/jobs/get`
 
 - Header
-  - Authorization : Bearer {Your Token Here}
+  - Authorization : Bearer {Your Token Here} ( required )
 
 - Query Parameter
   - description : string ( optional )
@@ -61,7 +61,7 @@ note : to change port, go to run_dev.js and change the port
 3. **GET** `/jobs/get/:id`
 
 - Header
-  - Authorization : Bearer {Your Token Here}
+  - Authorization : Bearer {Your Token Here} ( required )
 
 - URL Param
   - id : string ( required )
