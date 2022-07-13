@@ -40,28 +40,28 @@ note : to change port, go to run_dev.js and change the port
 1. **POST** `/auth/login`
 
 - Body
-- - username : string ( required ) 
-- - password : string ( required )
+  - username : string ( required ) 
+  - password : string ( required )
 
 - Response Result
-- - User_Data : your User Data
-- - Access_Token : Bearer Token to use on other Endpoint
+  - User_Data : your User Data
+  - Access_Token : Bearer Token to use on other Endpoint
 
 2. **GET** `/jobs/get`
 
 - Header
-- - Authorization : Bearer {Your Token Here}
+  - Authorization : Bearer {Your Token Here}
 
 - Query Parameter
-- - description : string ( optional )
-- - location : string ( optional )
-- - full_time : string one of ['true', 'false'] ( optional )
-- - page : number ( min 1 ) ( optional )
+  - description : string ( optional )
+  - location : string ( optional )
+  - full_time : string one of ['true', 'false'] ( optional )
+  - page : number ( min 1 ) ( optional )
 
 3. **GET** `/jobs/get/:id`
 
 - Header
-- - Authorization : Bearer {Your Token Here}
+  - Authorization : Bearer {Your Token Here}
 
 - URL Param
-- - id : string ( required )
+  - id : string ( required )
