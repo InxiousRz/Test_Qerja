@@ -1,0 +1,31 @@
+{
+  "name": "test_qerja",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InxiousRz/Test_Qerja.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/InxiousRz/Test_Qerja/issues"
+  },
+  "homepage": "https://github.com/InxiousRz/Test_Qerja#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "better-sqlite3": "^7.6.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "helmet": "^5.1.0",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment-timezone": "^0.5.34"
+  }
+}
